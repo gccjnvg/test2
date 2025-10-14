@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 唯一根元素：垂直方向的LinearLayout，包裹所有子布局 -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 第一个水平布局：作为根布局的子元素 -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_weight="1"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+<TextView
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:text="One,One"
+android:textSize="18sp"
+android:textColor="#000000"
+android:gravity="center"/>
+
+<TextView
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:text="Two,One"
+android:textSize="18sp"
+android:textColor="#000000"
+android:gravity="center"/>
+
+<TextView
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:text="Three,One"
+android:textSize="18sp"
+android:textColor="#000000"
+android:gravity="center"/>
+
+<TextView
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:text="Four,One"
+android:textSize="18sp"
+android:textColor="#000000"
+android:gravity="center"/>
+
+    </LinearLayout>
+
+    <!-- 第二个水平布局：作为根布局的子元素 -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_weight="1"
+android:orientation="horizontal"
+android:gravity="center">
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="One,Two"
+    android:textSize="18sp"
+    android:textColor="#000000"
+    android:gravity="center"/>
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Two,Two"
+    android:textSize="18sp"
+    android:textColor="#000000"
+    android:gravity="center"/>
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Three,Two"
+    android:textSize="18sp"
+    android:textColor="#000000"
+    android:gravity="center"/>
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Four,Two"
+    android:textSize="18sp"
+    android:textColor="#000000"
+    android:gravity="center"/>
+
+</LinearLayout>
+
+    <!-- 第三个水平布局：作为根布局的子元素 -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_weight="1"
+android:orientation="horizontal"
+android:gravity="center">
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="One,Three"
+    android:textSize="18sp"
+    android:textColor="#000000"
+    android:gravity="center"/>
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Two,Three"
+    android:textSize="18sp"
+    android:textColor="#000000"
+    android:gravity="center"/>
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Three,Three"
+    android:textSize="18sp"
+    android:textColor="#000000"
+    android:gravity="center"/>
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Four,Three"
+    android:textSize="18sp"
+    android:textColor="#000000"
+    android:gravity="center"/>
+
+</LinearLayout>
+
+    <!-- 第四个水平布局：作为根布局的子元素 -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_weight="1"
+android:orientation="horizontal"
+android:gravity="center">
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="One,Four"
+    android:textSize="18sp"
+    android:textColor="#000000"
+    android:gravity="center"/>
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Two,Four"
+    android:textSize="18sp"
+    android:textColor="#000000"
+    android:gravity="center"/>
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Three,Four"
+    android:textSize="18sp"
+    android:textColor="#000000"
+    android:gravity="center"/>
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Four,Four"
+    android:textSize="18sp"
+    android:textColor="#000000"
+    android:gravity="center"/>
+
+</LinearLayout>
+
+    </LinearLayout> <!-- 根布局闭合 -->
